@@ -1,0 +1,129 @@
+body
+{
+    padding: 3vh 2vh;
+    background-image: url("bg.jpg");
+}
+
+.item1 
+{ 
+    grid-area: A;
+    height: 70vh;
+    border-radius: 25px;
+    padding: 20px 30px; 
+    background-color: rgba(250, 235, 215, 0.3);
+    color: #430143;
+}
+
+.item2 
+{ 
+    grid-area: B; 
+    height: 20vh;
+    border-radius: 25px;
+    padding: 20px 30px;
+    background-color: rgba(94, 1, 160, 0.7);
+}
+
+#grad
+{
+    background-image: linear-gradient(to right, rgb(155, 115, 178) , rgba(117, 25, 182, 0.7));
+}   
+
+.item3 
+{ 
+    grid-area: C; 
+    height: 40vh;
+    border-radius: 25px;
+    padding: 20px 30px;
+    background-color: rgba(250, 235, 215, 0.3);
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-areas:
+        'A A A A A B'
+        'A A A A A C';
+    gap: 4vh;
+}
+
+.projects
+{
+    text-align: left;
+    width: 100%;
+}
+
+.projects td
+{
+    padding-left: 10px;
+}
+.projects th
+{
+    padding-left: 10px;
+}
+
+.projects tr:hover td#under
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(61, 161, 243);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0px;
+}
+
+.projects tr
+{
+    height: 7vh;
+    font-size: 18px;
+}
+
+h1
+{
+    font-family: "Lucida Handwriting";
+    color: blueviolet;
+}
+
+h2
+{
+    font-family: sans-serif;
+}
+
+h3
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#pridelabel 
+{
+    color: white;
+    font-size: 18;
+}
+
+.pride
+{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.pride tr
+{
+    height: 5vh;
+}
+
+#contri
+{
+    color: #430143;
+}
+
+.precontri
+{
+    text-align: center;
+    color: #430143;
+    width: 100%;
+    font-family: sans-serif;
+}
+.precontri tr
+{
+    height: 5vh;
+}
